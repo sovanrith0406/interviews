@@ -1,0 +1,584 @@
+
+/*
+=======================
+ 01. header 
+ 02. conten
+ ======================
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 93px;
+    display: flex;
+    background-color: #D9EAFD;
+}
+.container_i {
+    padding: 25px 0 10px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
+.container_i #logo {
+    font-size: 20px;
+    padding: 2px 0 10px 0;
+    text-decoration: none;
+    color: #153448;
+    font-family: 'Heltar Test';
+}
+.menu {
+    width: 40%;
+    display: flex;
+    list-style: none; 
+    justify-content: space-between;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: 'Heltar Test';
+    font-size: 25px;
+    color: #3C5B6F;
+}
+
+.menu :hover{
+    color: #153448;
+}
+
+/*
+======================= 
+ 02. conten
+ ======================
+*/
+
+.h-container{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    background-color: #F8FAFC ;
+}
+.h-container .h-conten-1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.h-conten-1 .h-column-1{
+    width: 50%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+.h-column-1 h1{
+    padding: 10rem 0 0 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #153448;
+}
+.h-column-1 span{
+    padding-left: 2rem;
+    align-items: center;
+    font-family: 'Siemreap';
+    font-size: 1rem;
+    color: #153448;
+}
+.btn-1 {
+    margin: 2rem 0 0 15rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1rem solid #948979;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+  }
+  
+  .btn-1:hover {
+    background: #153448;
+    color: #F8FAFC;
+  }
+.h-conten-1 .h-column-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.h-column-2 img{
+    width: 100%;
+    height: 90%;
+}
+
+/*
+======================= 
+ 02. conten-2
+    - Preparing for interview
+   -What to wear to an interview
+ ======================
+*/
+
+.p-container{
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    background-color: #D9EAFD;
+}
+.p-container .p-conten-box-1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p-conten-box-1 .p-conten-box-1-cl-1{
+    width: 50%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+.p-conten-box-1-cl-1 .p-conten-box-1-cl-1-box-1{
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+}
+.p-conten-box-1-cl-1-box-1 img{
+    width: 100%;
+    height: 100%;
+}
+.p-conten-box-1-cl-1 .p-conten-box-1-cl-1-box-2{
+    width: 100%;
+    height: 50%;
+}
+.p-conten-box-1-cl-1-box-2 h5{
+    padding-top: 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #153448;
+}
+.p-conten-box-1-cl-1-box-2 p{
+    padding: 1rem 0 0 1rem;
+    font-family: 'Siemreap';
+    font-weight: normal;
+    font-size: 1rem;
+    color: #153448;
+}
+.p-conten-box-1 .p-conten-box-1-cl-2{
+    width: 50%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+.p-conten-box-1-cl-2 .p-conten-box-1-row-1{
+    width: 100%;
+    height: 20%;
+}
+.p-conten-box-1-row-1 h5{
+    padding: 1rem 0 0 0.5rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #153448;
+}
+.p-conten-box-1-row-1 pre{
+    padding-left: 2rem;
+    font-family: 'Siemreap';
+    font-weight: normal;
+    font-size: 1rem;
+    color: #153448;
+}
+
+.p-conten-box-1-cl-2 .p-conten-box-1-row-2{
+    width: 100%;
+    height: 33%;
+}
+.p-conten-box-1-row-2 h5{
+    padding-left: 0.5rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #153448;
+}
+.p-conten-box-1-row-2 p{
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    font-family: 'Siemreap';
+    font-size: 1rem;
+    color: #153448;
+}
+.p-conten-box-1-cl-2 .p-conten-box-1-row-3{
+    width: 100%;
+    height: 47%;
+}
+.p-conten-box-1-row-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*
+======================= 
+   -video
+ ======================
+*/
+
+.eb_h4-video-area{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+}
+.eb_h4-video-area .eb_h4-video-wrap{
+    width: 900%;
+    height: 100%;
+}
+.eb_h4-video-wrap img{
+    width: 100%;
+    height: 10%;
+}
+/*
+======================= 
+   -Interview questions
+ ======================
+*/
+.q-container{
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    justify-content: center;
+    background-color: #D9EAFD;
+}
+.q-container .q-conten-box-1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.q-conten-box-1 .q-conten-box-1-cl-1{
+    width: 50%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+.q-conten-box-1-cl-1 .q-conten-box-1-cl-1-box-1{
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+}
+.q-conten-box-1-cl-1-box-1 img{
+    width: 100%;
+    height: 100%;
+}
+.q-conten-box-1-cl-1 .q-conten-box-1-cl-1-box-2{
+    width: 100%;
+    height: 50%;
+}
+.q-conten-box-1-cl-1-box-2 h5{
+    padding-top: 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #153448;
+}
+.q-conten-box-1-cl-1-box-2 p{
+    padding: 1rem 0 0 1rem;
+    font-family: 'Siemreap';
+    font-weight: normal;
+    font-size: 1rem;
+    color: #153448;
+}
+.q-conten-box-1 .q-conten-box-1-cl-2{
+    width: 50%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+.q-conten-box-1-cl-2 .q-conten-box-1-row-1{
+    width: 100%;
+    height: 12.5%;
+}
+.q-conten-box-1-row-1 h5{
+    padding: 1rem 0 0 0.5rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #153448;
+}
+.q-conten-box-1-row-1 pre{
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    font-family: 'Siemreap';
+    font-weight: normal;
+    font-size: 1rem;
+    color: #153448;
+}
+
+.q-conten-box-1-cl-2 .q-conten-box-1-row-2{
+    width: 100%;
+    height: 40%;
+}
+.q-conten-box-1-row-2 h5{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: #153448;
+}
+.q-conten-box-1-row-2 p{
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    font-family: 'Siemreap';
+    font-size: 1rem;
+    color: #153448;
+}
+.q-conten-box-1-cl-2 .q-conten-box-1-row-3{
+    width: 100%;
+    height: 47%;
+}
+.q-conten-box-1-row-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/*
+======================= 
+   -What to wear to an interview
+ ======================
+*/
+
+.h-1-container-1{
+    width: 100%;
+    height: 102rem;
+    display: flex;
+    justify-content: center;
+    background-color: #D9EAFD;
+}
+.h-1-container-1 .h-1-conten-2{
+    width: 90%;
+    height: 100%;
+}
+
+.h-1-conten-2 .h-1-conten-2-text{
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+}
+.h-1-conten-2-text .h-1-conten-2-column-1{
+    width: 35%;
+    height: 100%;
+}
+.h-1-conten-2-column-1 img{
+    width: 90%;
+    height: 80%;
+    padding-top: 4rem;
+}
+.h-1-conten-2-text .h-1-conten-2-column-2{
+    width: 65%;
+    height: 100%;
+}
+.h-1-conten-2-column-2 h4{
+    padding-top: 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    color: #153448;
+    font-size: 1.4rem;
+}
+.h-1-conten-2-column-2 h5{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    color: #153448;
+    font-size: 1rem;
+}
+.h-1-conten-2-column-2 h6{
+    padding-left: 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    color: #153448;
+    font-size: 1rem;
+}
+.h-1-conten-2-column-2 p{
+    padding: 1rem 0 0 2rem;
+    font-family: 'Siemreap';
+    color: #153448;
+    font-size: 1rem;
+}
+.h-1-conten-2-column-2 pre{
+    padding-top: 1rem;
+    font-family: 'Siemreap';
+    color: #153448;
+    font-size: 1rem;
+}
+.h-1-conten-2 .h-1-conten-2-box-1{
+    width: 100%;
+    height: 60rem;
+    display: block;
+    justify-content: center;
+}
+.h-1-conten-2-box-1 .h-1-conten-2-box-1-column-1{
+    width: 100%;
+    height: 50%;
+    display: block;
+    justify-content: center;
+}
+.h-1-conten-2-box-1-column-1 .h-1-conten-2-box-1-column-1-row-1{
+    width: 100%;
+    height: 20%;
+}
+.h-1-conten-2-box-1-column-1-row-1 h6{
+    padding: 2rem 0 0 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #153448;
+}
+.h-1-conten-2-box-1-column-1 .h-1-conten-2-box-1-column-1-row-2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.h-1-conten-2-box-1-column-1-row-2 .h-1-conten-2-box-1-column-1-row-2-cl-1{
+    width: 50%;
+    height: 100%;
+}
+.h-1-conten-2-box-1-column-1-row-2-cl-1 img{
+    width: 100%;
+    height: 100%;
+}
+.h-1-conten-2-box-1-column-1-row-2 .h-1-conten-2-box-1-column-1-row-2-cl-2{
+    width: 50%;
+    height: 100%;
+}
+.h-1-conten-2-box-1-column-1-row-2-cl-2 .slider-1{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: block;
+    justify-content: center;
+}
+.slider-1 .slides-1 {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slides-1 .slide {
+    min-width: 100%;
+    transition: 0.5s;
+} 
+.slide p{
+    font-family: 'Siemreap';
+    display: flex;
+    color: #153448;
+    font-size: 1.2rem;
+    padding: 5rem 2rem 0 3rem;  
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(223, 208, 184);
+    color: #153448;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+.h-1-conten-2-box-1 .h-1-conten-2-box-1-column-2{
+    width: 100%;
+    height: 50%;
+    display: block;
+    justify-content: center;
+}
+.h-1-conten-2-box-1-column-2 .h-1-conten-2-box-1-column-1-row-3{
+    width: 100%;
+    height: 20%;
+}
+.h-1-conten-2-box-1-column-1-row-3 h6{
+    padding: 2rem 0 0 2rem;
+    font-family: 'Moul';
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #153448;
+}
+.h-1-conten-2-box-1-column-2 .h-1-conten-2-box-1-column-1-row-4{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.h-1-conten-2-box-1-column-1-row-4 .h-1-conten-2-box-1-column-1-row-2-cl-3{
+    width: 50%;
+    height: 100%;
+}
+.h-1-conten-2-box-1-column-1-row-2-cl-3 img{
+    width: 100%;
+    height: 100%;
+}
+.h-1-conten-2-box-1-column-1-row-4 .h-1-conten-2-box-1-column-1-row-2-cl-4{
+    width: 50%;
+    height: 100%;
+}
+.h-1-conten-2-box-1-column-1-row-2-cl-4 .slider-1{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: block;
+    justify-content: center;
+}
+.slider-1 .slides-1 {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slides-1 .slide {
+    min-width: 100%;
+    transition: 0.5s;
+} 
+.slide p{
+    font-family: 'Siemreap';
+    display: flex;
+    color: #153448;
+    font-size: 1.2rem;
+    padding: 5rem 2rem 0 3rem;  
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(223, 208, 184);
+    color: #153448;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

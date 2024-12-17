@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Heltar Test';
+    src: url('Heltar-Medium.eot');
+    src: url('Heltar-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Heltar-Medium.woff2') format('woff2'),
+        url('Heltar-Medium.woff') format('woff'),
+        url('Heltar-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

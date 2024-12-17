@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Moul';
+    src: url('Moul.eot');
+    src: url('Moul.eot?#iefix') format('embedded-opentype'),
+        url('Moul.woff2') format('woff2'),
+        url('Moul.woff') format('woff'),
+        url('Moul.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.font-muol{
+    font-family: 'Moul';
+    font-size: 3rem;
+}
